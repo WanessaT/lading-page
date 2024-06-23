@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,33 +12,122 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Safe & Faster Logistic</title>
+
 </head>
+
 <body>
+
     <header>
-        <div class="navegacao">
-            <img class="logo" src="img/logo.png" alt="">
-            <ul class="bt-navegacao">
-                <li>Home</li>
-                <li>About</li>
-                <li>Service</li>
-                <li>Price</li>
-                <li>Pages</li>
-                <li>Contact</li>
-            </ul>
-            <a class="bt-cotacao" href="#">Get A Quate</a>
-        </div>
+        <section class="navegacao">
+
+            <div>
+                <img class="logo" src="img/logo.png" alt="">
+            </div>
+
+            <div class="bt-navegacao">
+                <a class="bt-navegacao" id="home" href="#">Home</a>
+                <a class="bt-navegacao" id="about" href="#">About</a>
+                <a class="bt-navegacao" id="service" href="#">Service</a>
+                <a class="bt-navegacao" id="price" href="#">Price</a>
+                <a class="bt-navegacao" id="pages" href="#">Pages</a>
+                <a class="bt-navegacao" id="contact" href="#">Contact</a>
+            </div>
+
+            <div>
+                <a class="bt-cotacao" href="#">Get A Quate</a>
+            </div>
+
+        </section>
+
 
         <div class="imagem-header">
             <div class="titulo">
-                <h2>Safe & Faster</h2>
-            <h1>Logistics Services</h1>
-            <input class="rastreio" type="text" name="rastreamento" placeholder="Tracking Id">
-            <input class="rastreio" type="button" value="Track & Trace">
+                <h2 id="titulo-home">Safe & Faster</h2>
+                <h1>Logistics Services</h1>
+                <div class="bt-pesquisar">
+                    <input class="pesquisa" type="text" name="rastreamento" placeholder="Tracking Id">
+                    <input class="bt-pesquisa" type="button" value="Track & Trace">
+                </div>
             </div>
         </div>
-
     </header>
+    
+    <section class="prim-sessao">
+        <div>
+            <div id="texto-cotacao">
+                <p id="obter-cotacao">GET A QUOTE</p>
+                <h2 id="titulo-cotacao">Request A Free Quote</h2>
+                <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut
+                    vero no sit. Et elitr stet dolor sed it et sed ipsum et kasd ut. Erat duo eos et erat set diam duo</p>
+            </div>
+    
+            <div class="visita">
+                <div>
+                    <p class="visitas">225</p>
+                    <p class="visitas2">SKilled Experts</p>
+                </div>
+                <div>
+                    <p class="visitas">1050</p>
+                    <p class="visitas2">Happy Clients</p>
+                </div>
+                <div>
+                    <p class="visitas">2500</p>
+                    <p class="visitas2">Complete Projects</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="formulario">
+            <input class="caixa-selecao" type="text" name="" id="" placeholder="Your Name">
+            <input class="caixa-selecao" type="email" name="" id="" placeholder="Your Email">
+            <select class="caixa-selecao" name="" id="">
+                <option value="select">Select A Service</option>
+                <option value="1">Service 1</option>
+                <option value="2">Service 2</option>
+                <option value="3">Service 3</option>
+                <option value="4">Service 4</option>
+                <input class="caixa-selecao" id="bt-submit" type="submit" value="Get A Quote">
+            </select>
+        </div>
+
+    </section>
+
+    <section class="planos">
+        <h2 class="princ-planos">PRICING PLAN</h2>
+        <p class="princ-packages">Affordable Pricing Packages</p>
+        <div class="planos-mensais">
+            <div class="planos-mensais-hidden">
+                <p class="valores-plano"><span class="cifrao">$</span><span class="valor">49</span>/Mo</p>
+                <p class="tipo-plano">Basic</p>
+                <p class="descricao-plano">HTML5 & CSS3</p>
+                <p class="descricao-plano">Bootstrap 4</p>
+                <p class="descricao-plano">Responsive Layout</p>
+                <p class="descricao-plano">Compatible With All Browsers</p>
+                <p class="bt-planos">Order Now</p>
+            </div>
+
+            <div class="planos-mensais-hidden">
+                <p class="valores-plano"><span class="cifrao">$</span><span class="valor">99</span>/Mo</p>
+                <p class="tipo-plano">Premium</p>
+                <p class="descricao-plano">HTML5 & CSS3</p>
+                <p class="descricao-plano">Bootstrap 4</p>
+                <p class="descricao-plano">Responsive Layout</p>
+                <p class="descricao-plano">Compatible With All Browsers</p>
+                <p class="bt-planos">Order Now</p>
+            </div>
+
+            <div class="planos-mensais-hidden">
+                <p class="valores-plano"><span class="cifrao">$</span><span class="valor">149</span>/Mo</p>
+                <p class="tipo-plano">Business</p>
+                <p class="descricao-plano">HTML5 & CSS3</p>
+                <p class="descricao-plano">Bootstrap 4</p>
+                <p class="descricao-plano">Responsive Layout</p>
+                <p class="descricao-plano">Compatible With All Browsers</p>
+                <p class="bt-planos">Order Now</p>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>

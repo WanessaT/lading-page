@@ -1,69 +1,252 @@
-* {
-    padding: 0;
+body {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
 .logo {
-    width: 150px;
+    width: 200px;
     margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 15px 30px;
 }
 
 .navegacao {
-    height: 55px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;    
 }
 
 .bt-navegacao {
     display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: center;
+    margin: 0 20px;
+    padding: 10px 20px;
+    color: black;
+}
+
+#home:hover, #about:hover, #service:hover, #price:hover, #pages:hover, #contact:hover {
+    background-color: #FF4900;
+    color: white;
+    height: 100%;
+}
+
+.bt-cotacao {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 18px 30px;
+    padding: 15px;
+    width: 150px;
+    height: 20px;
+    background-color: #FF4900;
+    color: white;
+}
+
+.bt-cotacao:hover {
+    background-color: #c63e09;
 }
 
 .imagem-header {
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 280px;
-    background-image: url('img/navio-header.png');
+    height: 450px;
+    background-image: url('img/header.jpg');
     background-size: cover;
-}
-
-li {
-    margin: 15px;
-    list-style-type: none;
-    font-weight: bolder;
-    padding: 10px;
-    margin: 0 5px;
-}
-
-a {
-    background-color: #FF4900;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin-right: 25px;
-    font-weight: light;
-}
-
-li:hover {
-    background-color: #FF4900;
-    color: white;
+    text-align: center;   
 }
 
 .titulo {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 70px;
-
+    padding-top: 60px;
 }
 
-h2 {
+#titulo-home {
+    font-size: 40px;
     color: #FF4900;
+    margin-bottom: 0;
 }
 
 h1 {
+    font-size: 70px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.bt-pesquisar {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.pesquisa {
+    width: 220px;
+    padding: 10px;
+    margin: 0;
+    border-right: none;
+}
+
+.bt-pesquisa {
+    width: 120px;
+    padding: 10px;
+    background-color: #FF4900;
+    color: white;
+    margin: 0;
+    border-left: none;
+}
+
+.prim-sessao {
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    padding: 0 40px;
+}
+
+#texto-cotacao {
+    text-align: left;
+    font-size: 20px;
+    width: 800px;
+    color: grey;
+    padding: 30px 30px 0 30px;
+}
+
+#obter-cotacao {
+    color: #FF4900;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+#titulo-cotacao {
+    color: #101017;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.visita {
+    display: flex;
+    padding-left: 16px;
+    padding-bottom: 30px;
+}
+
+.visitas {
+    display: flex;
+    margin: 25px;
+    font-size: 50px;
+    color: #FF4900;
+    font-weight: bold;
+}
+
+.visitas2 {
+    display: flex;
+    margin: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FF4900;
+    width: 350px;
+    padding: 20px;
+}
+
+.caixa-selecao {
+    padding: 15px;
+    margin: 10px;
+}
+
+#bt-submit {
+    padding: 25px;
+    background-color: #101017;
     color: white;
 }
+
+.planos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.planos-mensais {
+    display: flex;
+}
+
+.princ-planos {
+    color: #FF4900;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.princ-packages {
+    color: #101017;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.planos-mensais-hidden {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 0;
+    margin: 0 20px;
+    background-color: #ECECEC;
+    align-items: center;
+}
+
+.tipo-plano {
+    background-color: #FF4900;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #101017;
+}
+
+.valores-plano {
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+}
+
+.valor {
+    font-size: 45px;
+    color: #101017;
+    font-weight: bold;
+}
+
+.cifrao {
+    justify-content: start;
+}
+
+.descricao-plano {
+    font-size: 13px;
+    margin-bottom: 0;
+    color: grey;
+}
+
+.bt-planos {
+    margin: 15px;
+    padding: 10px 8px;
+    background-color: #FF4900;
+    color: white;
+    font-size: 12px;
+    width: 130px;
+    text-align: center;
+}
+
+.bt-planos:hover {
+    cursor: pointer;
+}
+

@@ -187,15 +187,17 @@ h1 {
 
 .princ-planos {
     color: #FF4900;
-    font-size: 15px;
+    font-size: 16px;
+    margin-top: 50px;
     margin-bottom: 0;
 }
 
 .princ-packages {
     color: #101017;
-    font-size: 40px;
     font-weight: bold;
+    font-size: 40px;
     margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .planos-mensais-hidden {
@@ -266,7 +268,7 @@ h1 {
 #conheca-time {
     color: #101017;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -306,4 +308,65 @@ h1 {
     color: grey;
     font-size: 15px;
     margin-top: 5px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-blog {
+    color: #FF4900;
+    font-size: 16px;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+.novidades-blog {
+    color: #101017;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.publi-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+}
+
+.publicacoes {
+    background-color: #F2F2F4;
+    margin: 10px;
+    width: 480px;
+}
+
+.imagem-blog {
+    width: 480px;
+}
+
+.titulo-publi {
+    margin-left: 25px;
+    margin-top: 0;
+    font-size: 20px;
+    color: #101017;
+}
+
+.texto-publi {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15px;
+    color: grey;
+}
+
+.link-publi {
+    margin-left: 25px;
+    color: #FF4900;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #FF4900;
 }

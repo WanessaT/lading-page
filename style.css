@@ -169,6 +169,11 @@ h1 {
     color: white;
 }
 
+#bt-submit:hover {
+    color: gray;
+    cursor: pointer;
+}
+
 .planos {
     display: flex;
     flex-direction: column;
@@ -248,5 +253,57 @@ h1 {
 
 .bt-planos:hover {
     cursor: pointer;
+    background-color: #c63e09;
 }
 
+#time-delivery {
+    color: #FF4900;
+    font-size: 16px;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+#conheca-time {
+    color: #101017;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.equipe-entrega-pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.funcionarios-entrega {
+    display: flex;
+    justify-content: center;
+}
+
+.funcionarios {
+    margin: 10px;
+    text-align: center;
+    background-color: #ECECEC;
+    border-bottom: 5px solid #FF4900;
+    justify-content: center;
+}
+
+.foto-funcionario {
+    width: 230px;
+}
+
+.nome-funcionario {
+    color: #101017;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.cargo-funcionario {
+    color: grey;
+    font-size: 15px;
+    margin-top: 5px;
+}

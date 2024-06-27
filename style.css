@@ -84,19 +84,24 @@ h1 {
 }
 
 .pesquisa {
-    width: 220px;
-    padding: 10px;
+    width: 400px;
+    padding: 16px;
     margin: 0;
-    border-right: none;
+    border: none;
 }
 
 .bt-pesquisa {
-    width: 120px;
-    padding: 10px;
+    width: 140px;
+    padding: 12px;
     background-color: #FF4900;
     color: white;
     margin: 0;
     border-left: none;
+    text-decoration: none;
+}
+
+.bt-pesquisa:hover {
+    background-color: #c63e09;
 }
 
 .prim-sessao {
@@ -233,10 +238,6 @@ h1 {
     font-weight: bold;
 }
 
-.cifrao {
-    justify-content: start;
-}
-
 .descricao-plano {
     font-size: 13px;
     margin-bottom: 0;
@@ -244,12 +245,13 @@ h1 {
 }
 
 .bt-planos {
+    text-decoration: none;
     margin: 15px;
-    padding: 10px 8px;
+    padding: 8px;
     background-color: #FF4900;
     color: white;
     font-size: 12px;
-    width: 130px;
+    width: 100px;
     text-align: center;
 }
 
@@ -343,6 +345,7 @@ h1 {
     background-color: #F2F2F4;
     margin: 10px;
     width: 480px;
+    padding-bottom: 15px;
 }
 
 .imagem-blog {
@@ -369,4 +372,99 @@ h1 {
     font-size: 16px;
     text-decoration: none;
     border-bottom: 1px solid #FF4900;
+    margin-bottom: 20px;
+}
+
+.inicio-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #28283a;
+    margin-top: 30px;
+    padding: 70px 50px;
+    color: #F2F2F4;
+    font-size: 14px;
+}
+
+.redes-sociais {
+    width: 18px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 2px;
+}
+
+.menus-footer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links-menu {
+    text-decoration: none;
+    color: #F2F2F4;
+}
+.email-footer {
+    width: 45%;
+}
+
+.fim-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.5px solid darkgrey;
+    background-color: #28283a;
+    padding: 30px 50px;
+    font-size: 14px;
+}
+
+.direitos-footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #ECECEC;  
+}
+
+.direitos {
+    padding: 0px;
+    margin: 0px;
+}
+
+.final-footer {
+    color: #FF4900;
+}
+.opcoes-extras-footer {
+    color: #F2F2F4;
+    display: flex;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.opcoes-extras-footer:hover {
+    cursor: pointer;
+}
+
+.titulo-footer {
+    color: #FF4900;
+    font-size: 26px;
+       
+}
+
+#input-email {
+    height: 20px;
+    width: 600px;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#bt-email-footer {
+    height: 22px;
+    width: 80px;
+    padding: 10px;
+    background-color: #FF4900;
+    text-decoration: none;
+    color: #F2F2F4;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
 }

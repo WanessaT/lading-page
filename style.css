@@ -4,11 +4,11 @@ body {
 }
 
 .logo {
-    width: 200px;
-    margin-left: 25px;
+    width: 12.5rem;
+    margin-left: 1.5rem;
     display: flex;
     justify-content: center;
-    margin: 15px 30px;
+    margin: 0.9rem 1.8rem;
 }
 
 .navegacao {
@@ -21,8 +21,8 @@ body {
     justify-content: space-around;
     text-decoration: none;
     align-items: center;
-    margin: 0 20px;
-    padding: 10px 20px;
+    margin: 0 1.25rem;
+    padding: 0.6rem 1.25rem;
     color: black;
 }
 
@@ -36,10 +36,10 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: center;
-    margin: 18px 30px;
-    padding: 15px;
-    width: 150px;
-    height: 20px;
+    margin: 1.1rem 1.8rem;
+    padding: 0.9rem;
+    width: 9.3rem;
+    height: 1.2rem;
     background-color: #FF4900;
     color: white;
 }
@@ -52,7 +52,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 450px;
+    height: 28.1rem;
     background-image: url('img/header.jpg');
     background-size: cover;
     text-align: center;   
@@ -61,20 +61,20 @@ body {
 .titulo {
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
+    padding-top: 3.7rem;
 }
 
 #titulo-home {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #FF4900;
     margin-bottom: 0;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 4.3rem;
     color: white;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
 }
 
 .bt-pesquisar {
@@ -84,15 +84,15 @@ h1 {
 }
 
 .pesquisa {
-    width: 400px;
-    padding: 16px;
+    width: 25rem;
+    padding: 1rem;
     margin: 0;
     border: none;
 }
 
 .bt-pesquisa {
-    width: 140px;
-    padding: 12px;
+    width: 8.7rem;
+    padding: 0.7rem;
     background-color: #FF4900;
     color: white;
     margin: 0;
@@ -108,49 +108,49 @@ h1 {
     background-color: rgb(236, 236, 236);
     display: flex;
     justify-content: center;
-    margin: 50px 0;
-    padding: 0 40px;
+    margin: 3.1rem 0;
+    padding: 0 2.5rem;
 }
 
 #texto-cotacao {
     text-align: left;
-    font-size: 20px;
-    width: 800px;
+    font-size: 1.2rem;
+    width: 50rem;
     color: grey;
-    padding: 30px 30px 0 30px;
+    padding: 1.8rem 1.8rem 0 1.8rem;
 }
 
 #obter-cotacao {
     color: #FF4900;
     font-weight: bold;
-    font-size: 15px;
-    padding-top: 10px;
+    font-size: 0.9rem;
+    padding-top: 0.6rem;
 }
 
 #titulo-cotacao {
     color: #101017;
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-top: 0;
 }
 
 .visita {
     display: flex;
-    padding-left: 16px;
-    padding-bottom: 30px;
+    padding-left: 1rem;
+    padding-bottom: 1.8rem;
 }
 
 .visitas {
     display: flex;
-    margin: 25px;
-    font-size: 50px;
+    margin: 1.5rem;
+    font-size: 3.1rem;
     color: #FF4900;
     font-weight: bold;
 }
 
 .visitas2 {
     display: flex;
-    margin: 25px;
-    font-size: 15px;
+    margin: 1.5rem;
+    font-size: 0.9rem;
     font-weight: bold;
 }
 
@@ -159,17 +159,17 @@ h1 {
     flex-direction: column;
     justify-content: center;
     background-color: #FF4900;
-    width: 350px;
-    padding: 20px;
+    width: 21.8rem;
+    padding: 1.2rem;
 }
 
 .caixa-selecao {
-    padding: 15px;
-    margin: 10px;
+    padding: 0.9rem;
+    margin: 0.6rem;
 }
 
 #bt-submit {
-    padding: 25px;
+    padding: 1.5rem;
     background-color: #101017;
     color: white;
 }
@@ -192,25 +192,25 @@ h1 {
 
 .princ-planos {
     color: #FF4900;
-    font-size: 16px;
-    margin-top: 50px;
+    font-size: 1rem;
+    margin-top: 3.1rem;
     margin-bottom: 0;
 }
 
 .princ-packages {
     color: #101017;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0.3rem;
 }
 
 .planos-mensais-hidden {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 18.7rem;
     padding: 0;
-    margin: 0 20px;
+    margin: 0 1.2rem;
     background-color: #ECECEC;
     align-items: center;
 }
@@ -219,8 +219,8 @@ h1 {
     background-color: #FF4900;
     width: 100%;
     margin: 0;
-    padding: 5px 0;
-    font-size: 30px;
+    padding: 0.3rem 0;
+    font-size: 1.8rem;
     text-align: center;
     font-weight: bold;
     color: #101017;
@@ -228,29 +228,29 @@ h1 {
 
 .valores-plano {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.7rem;
     color: grey;
 }
 
 .valor {
-    font-size: 45px;
+    font-size: 2.8rem;
     color: #101017;
     font-weight: bold;
 }
 
 .descricao-plano {
-    font-size: 13px;
+    font-size: 0.8rem;
     margin-bottom: 0;
     color: grey;
 }
 
 .bt-planos {
     text-decoration: none;
-    margin: 15px;
-    padding: 8px;
+    margin: 0.9rem;
+    padding: 0.5rem;
     background-color: #FF4900;
     color: white;
-    font-size: 12px;
+    font-size: 0.7rem;
     width: 100px;
     text-align: center;
 }
@@ -262,17 +262,17 @@ h1 {
 
 #time-delivery {
     color: #FF4900;
-    font-size: 16px;
-    margin-top: 70px;
+    font-size: 1rem;
+    margin-top: 4.3rem;
     margin-bottom: 0;
 }
 
 #conheca-time {
     color: #101017;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0.3rem;
 }
 
 .equipe-entrega-pai {
@@ -287,29 +287,29 @@ h1 {
 }
 
 .funcionarios {
-    margin: 10px;
+    margin: 0.6rem;
     text-align: center;
     background-color: #ECECEC;
-    border-bottom: 5px solid #FF4900;
+    border-bottom: 0.3rem solid #FF4900;
     justify-content: center;
 }
 
 .foto-funcionario {
-    width: 230px;
+    width: 14.3rem;
 }
 
 .nome-funcionario {
     color: #101017;
     font-weight: bold;
-    font-size: 20px;
-    margin-top: 5px;
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
     margin-bottom: 0;
 }
 
 .cargo-funcionario {
     color: grey;
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
 }
 
 .blog {
@@ -321,82 +321,82 @@ h1 {
 
 .o-blog {
     color: #FF4900;
-    font-size: 16px;
-    margin-top: 70px;
+    font-size: 1rem;
+    margin-top: 4.3rem;
     margin-bottom: 0;
 }
 
 .novidades-blog {
     color: #101017;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0.3rem;
 }
 
 .publi-blog {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 900px;
+    width: 56.2rem;
 }
 
 .publicacoes {
     background-color: #F2F2F4;
-    margin: 10px;
-    width: 480px;
-    padding-bottom: 15px;
+    margin: 0.6rem;
+    width: 30rem;
+    padding-bottom: 1rem;
 }
 
 .imagem-blog {
-    width: 480px;
+    width: 30rem;
 }
 
 .titulo-publi {
-    margin-left: 25px;
+    margin-left: 1.5rem;
     margin-top: 0;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #101017;
 }
 
 .texto-publi {
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 15px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 0.9rem;
     color: grey;
 }
 
 .link-publi {
-    margin-left: 25px;
+    margin-left: 1.5rem;
     color: #FF4900;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     border-bottom: 1px solid #FF4900;
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
 }
 
 .inicio-footer {
     display: flex;
     justify-content: space-between;
     background-color: #28283a;
-    margin-top: 30px;
-    padding: 70px 50px;
+    margin-top: 1.8rem;
+    padding: 3.7rem 3.1rem;
     color: #F2F2F4;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .titulo-footer {
     color: #FF4900;
-    font-size: 26px;
+    font-size: 1.6rem;
        
 }
 
 .redes-sociais {
-    width: 18px;
+    width: 1.1rem;
     border: 1px solid white;
     border-radius: 50%;
-    padding: 5px;
-    margin: 2px;
+    padding: 0.3rem;
+    margin: 0.1rem;
 }
 
 .menus-footer {
@@ -408,6 +408,7 @@ h1 {
 .links-menu {
     text-decoration: none;
     color: #F2F2F4;
+    padding: 0.3rem;
 }
 
 .email-footer {
@@ -415,24 +416,25 @@ h1 {
 }
 
 #input-email {
-    height: 20px;
-    width: 600px;
-    padding: 10px;
+    height: 1.2rem;
+    width: 37.5rem;
+    padding: 0.6rem;
     text-align: left;
-    font-size: 16px;
-    margin-top: 20px;
+    font-size: 1rem;
+    margin-top: 1.2rem;
 }
 
 #bt-email-footer {
-    height: 23px;
-    width: 80px;
-    padding: 10px;
+    height: 1.4rem;
+    width: 5rem;
+    padding: 0.6rem;
     background-color: #FF4900;
     text-decoration: none;
     color: #F2F2F4;
     text-align: center;
-    font-size: 12px;
-    margin-top: 20px;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-top: 1.2rem;
 }
 
 #bt-email-footer:hover {
@@ -445,8 +447,8 @@ h1 {
     justify-content: space-between;
     border-top: 0.5px solid darkgrey;
     background-color: #28283a;
-    padding: 30px 50px;
-    font-size: 14px;
+    padding: 1.8rem 3.1rem;
+    font-size: 0.8rem;
 }
 
 .final-footer {
@@ -456,7 +458,7 @@ h1 {
 .direitos-footer {
     display: flex;
     flex-direction: column;
-    font-size: 14px;
+    font-size: 0.8rem;
     color: #ECECEC;  
 }
 
@@ -469,7 +471,7 @@ h1 {
     color: #F2F2F4;
     display: flex;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 0.6rem;
 }
 
 .opcoes-extras-footer:hover {

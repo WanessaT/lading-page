@@ -1,7 +1,7 @@
 # Landing Page - Faster Logistic
 
 Repositório criado para armazenar atividade proposta no curso de formação em Desenvolvimento Web do Geração Tech.
-Disponível em: (fasterlogistics.vercel.app)
+Disponível em: https://fasterlogistics.vercel.app/
 
 A landing page que escolhi, foi da empresa Faster Logistic. A página conta com:
 
